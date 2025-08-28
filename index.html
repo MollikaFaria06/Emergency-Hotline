@@ -11,23 +11,24 @@
 </head>
 <body>
     <!-- Nav Bar Section -->
-        <nav class="flex flex-row justify-between  items-center px-[60px] py-[24px] ">
-            <div class="left-bar flex flex-row justify-items-start items-center w-[195.72px] h-[50px] gap-2">
-                <img class="w-[ 50px] h-[50px]" src="assets/logo.png" alt="">
-                <h1 class="w-[135.72px] h-[58px] text-[#006747] font-bold text-2xl">Emergency<br>Service</h1>
+        <nav class="flex flex-col sm:flex-row justify-between items-center px-4 sm:px-8 lg:px-[60px] py-4 lg:py-[24px] gap-4 sm:gap-0">
+            <div class="left-bar flex flex-row items-center gap-2">
+                <img class="w-[40px] sm:w-[50px] h-[40px] sm:h-[50px]" src="assets/logo.png" alt="">
+                <h1 class="text-[#006747] font-bold text-xl sm:text-2xl leading-tight">Emergency<br class="hidden sm:block" >Service</h1>
+                
             </div>
-            <div class="right-bar flex ">
-                <div class="flex flex-row gap-2  justify-center items-center  border-blue-400 rounded-full bg-[#41ff6b1a] mx-5 p-[12px] w-[123px] h-[52px]">
-                    <h1 class=" text-black font-semibold text-[20px] text-center">0</h1>
-                    <img class="w-[30px] h-[30px]" src="assets/heart.png" alt="">
+            <div class="right-bar flex flex-row gap-3 sm:gap-5">
+                <div class="flex flex-row gap-2  justify-center items-center  border-blue-400 rounded-full bg-[#41ff6b1a] mx-5 px-4 py-2 w-auto">
+                    <h1 class="text-black font-semibold text-lg sm:text-xl">0</h1>
+                    <img class="w-6 sm:w-[30px] h-6 sm:h-[30px]" src="assets/heart.png" alt="">
                 </div>
-                <div class="flex flex-row gap-2 justify-center items-center  border-blue-400 rounded-full bg-[#41ff6b1a] mx-5 p-[12px] w-[123px] h-[52px]">
-                    <h1 class="h[24px] w-[32px] text-black font-semibold text-[20px] text-center ">100</h1>
-                    <img class="w-[24px] h-[24px]" src="assets/coin.png" alt="">
+                <div class="flex flex-row gap-2 justify-center items-center rounded-full bg-[#41ff6b1a] px-4 py-2 w-auto">
+                    <h1 class="text-black font-semibold text-lg sm:text-xl">100</h1>
+                    <img class="w-5 sm:w-[24px] h-5 sm:h-[24px]" src="assets/coin.png" alt="">
   
                 </div>
-                <div class="flex flex-row gap-2 justify-center items-center  border-blue-400 rounded-full bg-[#00a63e] mx-5 p-[12px] w-[123px] h-[52px]">
-                    <h1 class="text-white font-semibold text-[20px] text-center">2 Copy</h1>
+                <div class="flex flex-row gap-2 justify-center items-center rounded-full bg-[#00a63e] px-4 py-2 w-auto">
+                    <h1 class="text-white font-semibold text-lg sm:text-xl">2 Copy</h1>
                 </div>
 
             </div>
@@ -39,11 +40,11 @@
             <p class="text-[16px] font-normal text-center text-white">Government Emergency Services at Your Fingertip - A Project by  Government of the People's Republic of Bangladesh</p>
          </section>
          <!-- main section -->
-         <main class="bg-[#f5fff6] flex flex-row items-start gap-4 flex-1 mt-2">
+         <main class="bg-[#f5fff6] flex flex-col lg:flex-row items-start gap-6 p-4 lg:p-2 mt-2">
             <!-- card section -->
-            <section class="card-section grid grid-cols-3 gap-8 p-6">
+            <section class="card-section grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full justify-items-center">
               
-                  <div class=" flex flex-col p-[32px] w-[380px] h-[360px]  bg-[#ffffff] rounded-xl shadow-md">
+                  <div class=" flex flex-col p-[32px] w-full sm:w-[380px] h-[360px]  bg-[#ffffff] rounded-xl shadow-md">
                     <div class="flex flex-row justify-between items-center">
                         <div class="w-[60px] h-[60px] bg-pink-200 rounded-lg ">
                             <img class="w-[32px] h-[32px] m-2 " src="assets/emergency.png" alt="">
@@ -66,7 +67,7 @@
                     </div>
 
                 </div>
-                  <div class=" flex flex-col p-[32px] w-[380px] h-[360px]  bg-[#ffffff] rounded-xl shadow-md">
+                  <div class=" flex flex-col p-[32px] w-full sm:w-[380px] h-[360px]  bg-[#ffffff] rounded-xl shadow-md">
                     <div class="flex flex-row justify-between items-center">
                         <div class="w-[60px] h-[60px] bg-pink-200 rounded-lg ">
                             <img class="w-[32px] h-[32px] m-2 " src="assets/police.png" alt="">
@@ -89,7 +90,7 @@
                     </div>
 
                 </div>
-                  <div class=" flex flex-col p-[32px] w-[380px] h-[360px]  bg-[#ffffff] rounded-xl shadow-md">
+                  <div class=" flex flex-col p-[32px] w-full sm:w-[380px] h-[360px]  bg-[#ffffff] rounded-xl shadow-md">
                     <div class="flex flex-row justify-between items-center">
                         <div class="w-[60px] h-[60px] bg-pink-200 rounded-lg ">
                             <img class="w-[32px] h-[32px] m-2 " src="assets/fire-service.png" alt="">
@@ -112,7 +113,7 @@
                     </div>
 
                 </div>
-                  <div class=" flex flex-col p-[32px] w-[380px] h-[360px]  bg-[#ffffff] rounded-xl shadow-md">
+                  <div class=" flex flex-col p-[32px] w-full sm:w-[380px] h-[360px]  bg-[#ffffff] rounded-xl shadow-md">
                     <div class="flex flex-row justify-between items-center">
                         <div class="w-[60px] h-[60px] bg-pink-200 rounded-lg ">
                             <img class="w-[32px] h-[32px] m-2 " src="assets/ambulance.png" alt="">
@@ -135,7 +136,7 @@
                     </div>
 
                 </div>
-                  <div class=" flex flex-col p-[32px] w-[380px] h-[360px]  bg-[#ffffff] rounded-xl shadow-md">
+                  <div class=" flex flex-col p-[32px] w-full sm:w-[380px] h-[360px]  bg-[#ffffff] rounded-xl shadow-md">
                     <div class="flex flex-row justify-between items-center">
                         <div class="w-[60px] h-[60px] bg-pink-200 rounded-lg ">
                             <img class="w-[32px] h-[32px] m-2 " src="assets/emergency.png" alt="">
@@ -158,7 +159,7 @@
                     </div>
 
                 </div>
-                  <div class=" flex flex-col p-[32px] w-[380px] h-[360px]  bg-[#ffffff] rounded-xl shadow-md">
+                  <div class=" flex flex-col p-[32px] w-full sm:w-[380px] h-[360px]  bg-[#ffffff] rounded-xl shadow-md">
                     <div class="flex flex-row justify-between items-center">
                         <div class="w-[60px] h-[60px] bg-pink-200 rounded-lg ">
                             <img class="w-[32px] h-[32px] m-2 " src="assets/emergency.png" alt="">
@@ -181,7 +182,7 @@
                     </div>
 
                 </div>
-                  <div class=" flex flex-col p-[32px] w-[380px] h-[360px]  bg-[#ffffff] rounded-xl shadow-md">
+                  <div class=" flex flex-col p-[32px] w-full sm:w-[380px] h-[360px]  bg-[#ffffff] rounded-xl shadow-md">
                     <div class="flex flex-row justify-between items-center">
                         <div class="w-[60px] h-[60px] bg-pink-200 rounded-lg ">
                             <img class="w-[32px] h-[32px] m-2 " src="assets/emergency.png" alt="">
@@ -204,7 +205,7 @@
                     </div>
 
                 </div>
-                  <div class=" flex flex-col p-[32px] w-[380px] h-[360px]  bg-[#ffffff] rounded-xl shadow-md">
+                  <div class=" flex flex-col p-[32px] w-full sm:w-[380px] h-[360px]  bg-[#ffffff] rounded-xl shadow-md">
                     <div class="flex flex-row justify-between items-center">
                         <div class="w-[60px] h-[60px] bg-pink-200 rounded-lg ">
                             <img class="w-[32px] h-[32px] m-2 " src="assets/emergency.png" alt="">
@@ -227,7 +228,7 @@
                     </div>
 
                 </div>
-                  <div class=" flex flex-col p-[32px] w-[380px] h-[360px]  bg-[#ffffff] rounded-xl shadow-md">
+                  <div class=" flex flex-col p-[32px] w-full sm:w-[380px] h-[360px]  bg-[#ffffff] rounded-xl shadow-md">
                     <div class="flex flex-row justify-between items-center">
                         <div class="w-[60px] h-[60px] bg-pink-200 rounded-lg ">
                             <img class="w-[32px] h-[32px] m-2 " src="assets/emergency.png" alt="">
@@ -253,14 +254,16 @@
 
             </section>
             <!-- history section -->
-            <section class="history-section  p-6 w-[350px] mt-6 bg-[#ffffff] rounded-xl shadow-md h-[1142px]">
-                <div class="flex flex-row justify-between">
+            <section class="history-section w-full lg:w-[400px] h-full lg:h-[1128px] bg-[#ffffff] rounded-xl shadow-md p-2 mt-6 lg:mt-0">
+                <div class="mt-4">
+                    <div class="flex flex-row justify-between">
                     <div class="flex flex-row gap-1 items-center">
                         <i class="fa-regular fa-clock "></i>
                         <h1 class="text-[20px] font-medium">Call History</h1>
 
                     </div>
                     <button class="btn btn-lg rounded-full bg-[#00a63e] text-white">Clear</button>
+                </div>
                 </div>
 
             </section>
