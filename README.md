@@ -65,5 +65,7 @@ Useful:
 
 5. Difference between preventDefault() and stopPropagation() are:
 
+
 (1). preventDefault() -> Prevents the default browser behavior of an element.
+
 (2). stopPropagation() -> Prevents parent elements from receiving the event.
