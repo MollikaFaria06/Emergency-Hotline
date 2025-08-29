@@ -15,8 +15,11 @@
 1. Difference between **getElementById, getElementsByClassName, and querySelector / querySelectorAll
 
 (a). getElementById("id") -> A single element with the given id , id must be unique.
+
 (b). getElementsByClassName("class") -> Live HTMLCollection of elements with the given class. automatically updates if elements are added.
+
 (c). querySelector("selector") -> Can select by id, class, tag, attributes.
+
 (d). querySelectorAll("selector") -> Static list does not automatically update if DOM changes.
 
 
