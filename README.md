@@ -13,6 +13,7 @@
 
 
 1. Difference between **getElementById, getElementsByClassName, and querySelector / querySelectorAll
+
 (a). getElementById("id") -> A single element with the given id , id must be unique.
 (b). getElementsByClassName("class") -> Live HTMLCollection of elements with the given class. automatically updates if elements are added.
 (c). querySelector("selector") -> Can select by id, class, tag, attributes.
@@ -22,6 +23,7 @@
 
 
 2. Create and insert a new element into the DOM:
+   
 (a). Create a new element
 var new = document.createElement("div");
 
@@ -41,11 +43,13 @@ parent.insertBefore(new, referenceNode);
 
 
 3. Event Bubbling:
+   
 When an event occurs on an element (like a click), it first triggers on that element, then bubbles up to its parent, then the parent’s parent, and so on up to the document.
 
 
 
 4. Event Delegation:
+
 Instead of adding event listeners to multiple child elements, you add one listener to their parent. Then, inside the listener, you check which child triggered the event.
 
 Useful:
