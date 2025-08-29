@@ -23,19 +23,19 @@
                     <img class="w-6 sm:w-[30px] h-6 sm:h-[30px]" src="assets/heart.png" alt="">
                 </div>
                 <div class="flex flex-row gap-2 justify-center items-center rounded-full bg-[#41ff6b1a] px-4 py-2 w-auto">
-                    <h1 class="text-black font-semibold text-lg sm:text-xl">100</h1>
+                    <h1 id="coin-count" class="text-black font-semibold text-lg sm:text-xl">100</h1>
                     <img class="w-5 sm:w-[24px] h-5 sm:h-[24px]" src="assets/coin.png" alt="">
   
                 </div>
                 <div class="flex flex-row gap-2 justify-center items-center rounded-full bg-[#00a63e] px-4 py-2 w-auto">
-                    <h1 class="text-white font-semibold text-lg sm:text-xl">0 Copy</h1>
+                    <h1 id="copy-count" class="text-white font-semibold text-lg sm:text-xl">0 Copy</h1>
                 </div>
 
             </div>
         </nav>
        <!-- Hero Section -->
          <section class="flex flex-col justify-center items-center px-[60px] py-[12px] bg-gradient-to-r from-[#013223] to-[#006747]">
-            <img class="w-[92px] h-[92px]" src="assets/logo.png" alt="">
+            <img class="w-[92px] h-[92px]" src="assets/logo-dark.png" alt="">
             <h1 class="font-semibold text-center text-[30px] text-white">Emergency Service Directory</h1>
             <p class="text-[16px] font-normal text-center text-white">Government Emergency Services at Your Fingertip - A Project by  Government of the People's Republic of Bangladesh</p>
          </section>
@@ -208,7 +208,7 @@
                   <div class=" flex flex-col p-[32px] w-full sm:w-[380px] h-[360px]  bg-[#ffffff] rounded-xl shadow-md">
                     <div class="flex flex-row justify-between items-center">
                         <div class="w-[60px] h-[60px] bg-pink-200 rounded-lg ">
-                            <img class="w-[32px] h-[32px] m-2 " src="assets/emergency.png" alt="">
+                            <img class="w-[32px] h-[32px] m-2 " src="assets/brac.png" alt="">
                         </div>
                         <i class="heart-btn fa-regular fa-heart w-[24px] h-[24px] cursor-pointer"></i>
 
@@ -231,7 +231,7 @@
                   <div class=" flex flex-col p-[32px] w-full sm:w-[380px] h-[360px]  bg-[#ffffff] rounded-xl shadow-md">
                     <div class="flex flex-row justify-between items-center">
                         <div class="w-[60px] h-[60px] bg-pink-200 rounded-lg ">
-                            <img class="w-[32px] h-[32px] m-2 " src="assets/emergency.png" alt="">
+                            <img class="w-[32px] h-[32px] m-2 " src="assets/Bangladesh-Railway.png" alt="">
                         </div>
                         <i class="heart-btn fa-regular fa-heart w-[24px] h-[24px] cursor-pointer"></i>
 
@@ -254,7 +254,7 @@
 
             </section>
             <!-- history section -->
-            <section class="history-section w-full lg:w-[400px] h-full lg:h-[1128px] bg-[#ffffff] rounded-xl shadow-md p-2 mt-6 lg:mt-0">
+            <section class="history-section w-full lg:w-[400px] h-full lg:h-[1128px] bg-[#ffffff] rounded-xl shadow-md p-4 mt-6 lg:mt-0">
                 <div class="mt-4">
                     <div class="flex flex-row justify-between">
                     <div class="flex flex-row gap-1 items-center">
@@ -262,8 +262,9 @@
                         <h1 class="text-[20px] font-medium">Call History</h1>
 
                     </div>
-                    <button class="btn btn-lg rounded-full bg-[#00a63e] text-white">Clear</button>
+                    <button id="clear-history" class="btn btn-lg rounded-full bg-[#00a63e] text-white">Clear</button>
                 </div>
+                <div id="history-list"></div>
                 </div>
 
             </section>
