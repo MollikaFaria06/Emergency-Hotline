@@ -57,6 +57,7 @@ Instead of adding event listeners to multiple child elements, you add one listen
 
 Useful:
 (1) There are many child elements.
+
 (2) Child elements are added dynamically.
 
 
